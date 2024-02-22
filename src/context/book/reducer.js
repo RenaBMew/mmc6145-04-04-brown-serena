@@ -1,4 +1,4 @@
-// TODONE: import actions and implement reducer for each action
+// TODONE: import actions and implement reducer for each action, book payload, bookId, book.
 import { ADD_BOOK, REMOVE_BOOK, SEARCH_BOOKS } from "./actions";
 
 export default function reducer(prevState, { action, payload }) {
